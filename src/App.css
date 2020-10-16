@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  display: block;
+  height: 50vmin;
+  pointer-events: none;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 0 auto
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.link {
+  color: #FFF;
+  text-decoration: none;
+}
+.link:hover {
+   color: #edeeef;
+   text-decoration: none;
+}
+
+.link-table {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.link-table:hover {
+   color: #3f3f3f;
+   text-decoration: none;
+}
+
+.nav {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 0 3px 0 3px;
+margin: 0 5px 0 30px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.App-header {
+  background-color: #edeeef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #474747;
+}
+
+.Background-img {
+  min-width: 100%;
+  min-height: 400px;
+  background-image: url('./Stormtrooper.svg');
+}
+
+.Table {
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
