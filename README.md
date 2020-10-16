@@ -1,4 +1,4 @@
-app-admin-server
+starwars-react-app
 ================
 
 
